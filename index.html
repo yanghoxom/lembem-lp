@@ -218,6 +218,30 @@
     @media (prefers-reduced-motion: reduce) {
       *, *::before, *::after { scroll-behavior: auto !important; animation: none !important; transition: none !important; }
     }
+    /* Real, keyboard-accessible link exactly over the Facebook panel drawn in the WebP.
+       Original illustration coordinates: x≈755–1277, y≈577–713 at 1536×1024. */
+    .fanpage-hotspot {
+      display: block;
+      position: absolute;
+      z-index: 5;
+      left: 49.1%;
+      top: 56.35%;
+      width: 34.2%;
+      height: 13.4%;
+      border-radius: 15px;
+      cursor: pointer;
+      background: transparent;
+      transition: background .2s ease, box-shadow .2s ease;
+    }
+    .fanpage-hotspot:hover {
+      background: rgba(255,250,233,.16);
+      box-shadow: inset 0 0 0 2px rgba(151,87,78,.6);
+    }
+    .fanpage-hotspot:focus-visible {
+      outline: 3px solid #97574e;
+      outline-offset: 3px;
+      background: rgba(255,250,233,.15);
+    }
     /* Full-width watercolor illustration replaces the old SVG character. */
     .hero {
       grid-template-columns: minmax(0, 1fr);
@@ -308,7 +332,8 @@
         </div>
       </div>
       <div class="visual">
-        <img class="artwork" src="./assets/qidian-farewell-hero.webp" alt="Tranh chibi cổ trang phong cách thủy mặc: núi non, áng mây, nhân vật đáng yêu và lời tạm biệt Qidian-VP." width="1536" height="1024" loading="eager" decoding="async" />
+        <img class="artwork" src="./assets/qidian-farewell-hero.webp" alt="Tranh chibi cổ trang phong cách thủy mặc với nhân vật đáng yêu, lời tạm biệt Qidian-VP và lời mời ghé fanpage Nhiều Truyện." width="1536" height="1024" loading="eager" decoding="async" />
+        <a class="fanpage-hotspot" href="https://www.facebook.com/nhieutruyen.comm" target="_blank" rel="noopener noreferrer" aria-label="Nhấn vào khung fanpage trong tranh để đến Facebook Nhiều Truyện (mở tab mới)" title="Ghé fanpage Nhiều Truyện để tâm sự"></a>
         <span class="art-caption" aria-hidden="true">Giang hồ tái kiến</span>
       </div>
     </section>
