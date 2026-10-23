@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 680" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">Tiểu đạo hữu tiễn biệt</title>
+<desc id="desc">Một tiểu đạo hữu chibi mặc cổ phục màu xanh trà, tóc búi, mỉm cười vẫy tay giữa núi non thủy mặc và những cành trúc, phong cách tranh giấy cũ.</desc>
+<defs>
+  <radialGradient id="sun" cx="0" cy="0" r="1" gradientTransform="translate(372 272) rotate(90) scale(276)">
+    <stop stop-color="#F6E8C9"/><stop offset=".7" stop-color="#E8D9B8"/><stop offset="1" stop-color="#D9C9A8" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="mount" x1="350" y1="312" x2="350" y2="535" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#718486" stop-opacity=".62"/><stop offset="1" stop-color="#9CA6A0" stop-opacity=".08"/>
+  </linearGradient>
+  <linearGradient id="robe" x1="280" y1="371" x2="455" y2="574" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#7D9B99"/><stop offset=".53" stop-color="#66817F"/><stop offset="1" stop-color="#465D61"/>
+  </linearGradient>
+  <linearGradient id="outer" x1="323" y1="178" x2="452" y2="367" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#485151"/><stop offset="1" stop-color="#27373B"/>
+  </linearGradient>
+  <linearGradient id="face" x1="305" y1="235" x2="430" y2="367" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#F9E6CC"/><stop offset="1" stop-color="#E8C8A9"/>
+  </linearGradient>
+  <linearGradient id="sleeve" x1="448" y1="357" x2="545" y2="325" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#91AAA5"/><stop offset="1" stop-color="#5D7D7C"/>
+  </linearGradient>
+  <filter id="inkSoft"><feGaussianBlur stdDeviation="5"/></filter>
+  <filter id="paper"><feTurbulence type="fractalNoise" baseFrequency=".65" numOctaves="3" seed="12" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".075"/></feComponentTransfer></filter>
+  <clipPath id="scene"><circle cx="371" cy="302" r="262"/></clipPath>
+</defs>
+<!-- faded ink landscape -->
+<circle cx="371" cy="302" r="262" fill="url(#sun)"/>
+<g clip-path="url(#scene)">
+  <path d="M16 460 101 398 151 427 247 311 317 387 379 327 445 396 518 293 612 419 726 352 774 481V600H16Z" fill="url(#mount)"/>
+  <path d="m190 454 73-102 51 65 58-95 77 107 72-112 92 132 88-42 82 67v93H190Z" fill="#788A86" opacity=".22"/>
+  <path d="m16 475 125-39 90 22 100-30 97 22 93-28 106 43 128-20v146H16Z" fill="#D8CEB7" opacity=".38"/>
+  <path d="M-3 486c147-26 253 22 365 3 118-19 237-9 410 13M-10 511c187-24 303 26 459 2 99-15 194-12 316 7" stroke="#FBF3E4" stroke-width="16" opacity=".63" filter="url(#inkSoft)"/>
+  <path d="M150 330c23-12 38-14 54-9M510 244c19-8 36-8 51-5" stroke="#738685" stroke-width="3" opacity=".37" stroke-linecap="round"/>
+</g>
+<!-- distant flying birds -->
+<path d="M504 135q12-10 24 0 12-10 24 0M553 163q9-7 18 0 9-7 18 0" stroke="#6B7771" stroke-width="3" opacity=".62" stroke-linecap="round"/>
+<!-- bamboo clusters -->
+<g opacity=".75" stroke="#697E75" stroke-linecap="round">
+ <path d="M112 546c7-101-4-178-17-262M132 553c4-104 17-180 34-256M616 534c-2-83 9-151 26-221" stroke-width="6"/>
+ <path d="m99 319 11-7m-9 51 12-7m-8 53 11-7m44-54 13 8m-20 43 14 7m-23 43 14 7m485-103 14 7" stroke-width="2.5"/>
+</g>
+<g fill="#83978B" opacity=".88">
+ <path d="M103 337q-38-49-68-22 29 31 68 22ZM113 372q44-45 69-22-36 29-69 22ZM99 415q-40-39-71-12 38 21 71 12ZM153 350q-42-45-74-22 41 28 74 22ZM152 407q48-37 78-5-46 20-78 5ZM637 366q-45-46-75-13 40 25 75 13ZM632 426q45-49 83-20-44 33-83 20Z"/>
+</g>
+<!-- petals -->
+<g fill="#B77F6F" opacity=".65">
+ <path d="m208 187q15-9 18 8-9 10-18-8ZM579 245q17-4 14 12-10 7-14-12ZM604 442q-15-9-20 4 9 13 20-4ZM204 470q13-7 16 8-9 9-16-8Z"/>
+</g>
+<!-- sitting rock -->
+<ellipse cx="368" cy="578" rx="207" ry="29" fill="#68716A" opacity=".15" filter="url(#inkSoft)"/>
+<path d="m189 581 22-59 48-29 74 12 69-20 93 24 30 61-19 42H209Z" fill="#777C72"/>
+<path d="m212 530 48-25 73 12 70-22 79 24 22 45-92 20-110-10-86 10Z" fill="#9AA195"/>
+<path d="m211 583 91-9 106 11 97-20-7 41H210Z" fill="#565F5C"/>
+<path d="m228 534 43-16m67 3 45-13m55 25 31 7" stroke="#D1D3C6" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+<!-- long hair behind head and shoulder -->
+<path d="M285 270c-12-79 29-121 96-125 87-5 137 65 115 157-6 25-9 67 16 108-33 10-57-12-70-25-65 46-126 35-171 5 16-45 5-84 14-120Z" fill="url(#outer)" stroke="#313F42" stroke-width="5"/>
+<!-- bun -->
+<path d="M325 174c-11-40 19-72 57-72 37 0 60 26 55 62-10 23-91 28-112 10Z" fill="#384549" stroke="#28363A" stroke-width="5"/>
+<path d="M336 151c7-22 28-34 50-31" stroke="#687273" stroke-width="5" stroke-linecap="round"/>
+<path d="m344 130 24-26 25 25-25 12Z" fill="#788F87" stroke="#465F5B" stroke-width="3"/>
+<path d="m318 164 122 7" stroke="#C5B38A" stroke-width="7" stroke-linecap="round"/>
+<circle cx="445" cy="171" r="7" fill="#D4B67A"/>
+<!-- lower boots -->
+<path d="m298 523-17 59c-6 18 50 30 63 10l17-67ZM409 527l16 57c7 16 65 11 61-9l-26-73Z" fill="#374B50" stroke="#26363B" stroke-width="5"/>
+<path d="m283 583 35 9 24-5m94 3 41-2" stroke="#81928C" stroke-width="3"/>
+<!-- robe silhouette -->
+<path d="M326 368c-23 1-56 14-72 39-19 29-18 96-8 127 25 33 223 41 265 0 0-66-13-117-44-144-18-17-37-21-58-25Z" fill="url(#robe)" stroke="#3C5558" stroke-width="6"/>
+<path d="M320 377c-13 53-15 112-16 158M414 374c18 67 22 125 20 166" stroke="#B1C3B8" stroke-width="5" opacity=".55"/>
+<path d="m318 369 54 81 56-80-32-16h-48Z" fill="#EFE3CC" stroke="#566E6C" stroke-width="5"/>
+<path d="m330 371 42 65 45-66m-58 32-36 134" stroke="#9EB6AB" stroke-width="5" stroke-linecap="round"/>
+<path d="M249 501q128 36 257-4l5 24q-122 44-263 1Z" fill="#D4BE91" stroke="#566A68" stroke-width="3"/>
+<path d="m375 511 6 28 23-4 1-25" fill="#8C6654" stroke="#6E5549" stroke-width="3"/>
+<circle cx="393" cy="526" r="6" fill="#EAD8AE"/>
+<!-- left sleeve and scroll -->
+<path d="M283 397q-32-6-53 30l-32 56 67 20 49-66Z" fill="#658280" stroke="#415F5F" stroke-width="5"/>
+<path d="m215 457 55 25-13 24-58-23Z" fill="#E6DBC5" stroke="#596F6C" stroke-width="3"/>
+<path d="M202 474q-24-14-33 2-9 18 15 24l19-1 13-10Z" fill="#F0D4B5" stroke="#BB9A7F" stroke-width="3"/>
+<g transform="rotate(-13 166 474)">
+ <rect x="133" y="433" width="37" height="96" rx="9" fill="#F0DFB9" stroke="#937D61" stroke-width="4"/>
+ <path d="M140 438v83m22-84v85" stroke="#C0A886" stroke-width="2"/>
+ <rect x="127" y="428" width="49" height="12" rx="5" fill="#7C5F4F"/>
+ <rect x="127" y="521" width="49" height="12" rx="5" fill="#7C5F4F"/>
+ <path d="m153 449 1 60" stroke="#B48D68" stroke-width="3" opacity=".48"/>
+</g>
+<!-- waving sleeve right -->
+<path d="M459 391c25-7 42-34 57-65 6-12 15-24 29-17 18 9 17 24 6 39-16 30-33 76-63 94l-46-30Z" fill="url(#sleeve)" stroke="#465F61" stroke-width="6"/>
+<path d="m503 359 41 26 16-29-43-25Z" fill="#EADFC8" stroke="#556D6B" stroke-width="4"/>
+<!-- waving hand -->
+<path d="M525 322q-3-24 8-28 9-2 12 18l5-36q3-13 12-9 7 3 4 16l4-16q5-12 13-8 7 5 1 18l7-8q11-10 17-2 5 7-3 15l-10 14q19-12 25-1 3 9-14 23l-31 27q-19 13-34-1Z" fill="#F4D8B8" stroke="#A98770" stroke-width="4" stroke-linejoin="round"/>
+<path d="m547 307 3-17m17 20 8-26m12 34 8-18" stroke="#D2AD8E" stroke-width="2.5" stroke-linecap="round"/>
+<!-- face & ears -->
+<ellipse cx="284" cy="306" rx="15" ry="22" fill="#F1D3B4" stroke="#B79376" stroke-width="3"/>
+<ellipse cx="461" cy="306" rx="15" ry="22" fill="#F1D3B4" stroke="#B79376" stroke-width="3"/>
+<path d="M292 263c2-64 30-98 83-101 64-4 101 40 99 108-1 67-42 117-103 116-57-1-85-48-79-123Z" fill="url(#face)" stroke="#A98C77" stroke-width="4"/>
+<!-- front fringe -->
+<path d="M289 272c-16-65 14-117 81-127 53-8 95 20 105 71 3 18 1 33-3 53-20-17-36-41-39-63-22 31-58 51-100 50-11 18-28 26-44 29Z" fill="url(#outer)"/>
+<path d="M314 234c27-18 46-40 55-61m16 61c24-13 41-29 48-49" stroke="#788080" stroke-width="5" stroke-linecap="round" opacity=".6"/>
+<path d="m286 265-9 23 20-9m179-22 6 19-15 6" fill="#354549"/>
+<!-- eyebrows -->
+<path d="M318 293q17-10 32-2M393 290q16-8 31 2" stroke="#545452" stroke-width="5" stroke-linecap="round"/>
+<!-- eyes -->
+<path d="M316 311q17-17 33 0M393 311q15-17 31 0" stroke="#424A49" stroke-width="6" stroke-linecap="round"/>
+<circle cx="334" cy="310" r="3" fill="#424A49"/><circle cx="409" cy="310" r="3" fill="#424A49"/>
+<!-- cheeks -->
+<ellipse cx="320" cy="334" rx="20" ry="10" fill="#C88375" opacity=".36"/>
+<ellipse cx="421" cy="334" rx="20" ry="10" fill="#C88375" opacity=".36"/>
+<path d="M357 338q14 16 28 0" stroke="#9F6558" stroke-width="4" stroke-linecap="round"/>
+<path d="m372 315 3 5-4 3" stroke="#CDAD91" stroke-width="2" stroke-linecap="round"/>
+<!-- ribbon flowing on robe -->
+<path d="M414 416q45 22 80 12-32 27-74 8" fill="#BFC7B2" opacity=".72"/>
+<!-- small signature seal -->
+<g transform="translate(577 500) rotate(7)">
+<rect x="0" y="0" width="55" height="55" rx="5" stroke="#A36358" stroke-width="4" opacity=".67"/>
+<path d="m11 15 12 0 0 13 10 0 0-14 12 0M14 38h30m-21-9v15m14-15v15" stroke="#A36358" stroke-width="3.5" stroke-linecap="round" opacity=".67"/>
+</g>
+<rect x="0" y="0" width="740" height="680" filter="url(#paper)" opacity=".5" pointer-events="none"/>
+</svg>
