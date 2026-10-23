@@ -193,13 +193,19 @@
       color: #965444;
       font: 600 14px/1.9 'Noto Serif', Georgia, serif;
     }
+    .social-links {
+      display: grid;
+      width: min(430px, 100%);
+      gap: 12px;
+      margin-top: 27px;
+    }
     .fanpage {
       display: flex;
       align-items: center;
       gap: 15px;
       width: min(430px, 100%);
       min-height: 76px;
-      margin-top: 27px;
+      margin-top: 0;
       padding: 13px 16px;
       border: 1px solid #d1b99a;
       border-radius: 6px;
@@ -224,6 +230,17 @@
       font: 700 34px/1 Arial, sans-serif;
       padding-top: 8px;
     }
+    .discord-icon {
+      display: grid;
+      place-items: center;
+      flex: none;
+      width: 45px;
+      height: 45px;
+      border-radius: 14px;
+      background: #5865f2;
+      color: #fff;
+    }
+    .discord-icon svg { display: block; width: 31px; height: 31px; }
     .fanpage-copy { display: block; flex: 1; min-width: 0; }
     .fanpage-title { display: block; font: 600 15px/1.5 'Noto Serif', Georgia, serif; }
     .fanpage-subtitle { display: block; margin-top: 3px; color: #827464; font-size: 10.5px; line-height: 1.65; }
@@ -248,7 +265,7 @@
       .wishes { margin-top: 11px; font-size: clamp(20px, 5.8vw, 27px); }
       .divider { margin: 20px auto; }
       .farewell-text { font-size: 12.5px; line-height: 2; }
-      .fanpage { margin-top: 22px; }
+      .social-links { margin-top: 22px; }
       .footer-note { padding-top: 26px; }
     }
     @media (max-width: 380px) {
@@ -256,6 +273,8 @@
       .letter { padding: 29px 20px 24px; }
       .fanpage { gap: 11px; padding: 12px 11px; }
       .fb-icon { width: 40px; height: 40px; font-size: 29px; }
+      .discord-icon { width: 40px; height: 40px; }
+      .discord-icon svg { width: 28px; height: 28px; }
       .fanpage-title { font-size: 13.5px; }
       .fanpage-subtitle { font-size: 10px; }
     }
@@ -286,14 +305,30 @@
         <p class="closing">Núi cao sông dài, hữu duyên tái ngộ.</p>
       </div>
 
-      <a class="fanpage" href="https://www.facebook.com/nhieutruyen.comm" target="_blank" rel="noopener noreferrer" aria-label="Ghé fanpage Nhiều Truyện trên Facebook để tâm sự, mở trong tab mới">
-        <span class="fb-icon" aria-hidden="true">f</span>
-        <span class="fanpage-copy">
-          <span class="fanpage-title">Ghé fanpage tâm sự</span>
-          <span class="fanpage-subtitle">Chán chán thì ghé chơi, tâm sự với mình nhé!</span>
-        </span>
-        <span class="arrow" aria-hidden="true">↗</span>
-      </a>
+      <nav class="social-links" aria-label="Nơi hội ngộ cùng chư vị đạo hữu">
+        <a class="fanpage" href="https://www.facebook.com/nhieutruyen.comm" target="_blank" rel="noopener noreferrer" aria-label="Ghé fanpage Nhiều Truyện trên Facebook để tâm sự, mở trong tab mới">
+          <span class="fb-icon" aria-hidden="true">f</span>
+          <span class="fanpage-copy">
+            <span class="fanpage-title">Ghé fanpage tâm sự</span>
+            <span class="fanpage-subtitle">Chán chán thì ghé chơi, tâm sự với mình nhé!</span>
+          </span>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="fanpage" href="https://discord.gg/nCj7PjJcUM" target="_blank" rel="noopener noreferrer" aria-label="Vào cộng đồng Discord để hội ngộ đạo hữu, mở trong tab mới">
+          <span class="discord-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M8.25 5.5c2.45-.83 5.05-.83 7.5 0l.85 1.55a12.5 12.5 0 0 1 2.6 1.37c1.06 2.97 1.08 5.9-.14 8.75a12 12 0 0 1-3.4 1.72l-.73-1.15c.57-.19 1.1-.45 1.61-.78-2.88 1.4-6.2 1.4-9.08 0 .51.33 1.04.59 1.61.78l-.73 1.15a12 12 0 0 1-3.4-1.72C3.72 14.32 3.74 11.39 4.8 8.42a12.5 12.5 0 0 1 2.6-1.37l.85-1.55Z" fill="currentColor"/>
+              <ellipse cx="9.1" cy="12.25" rx="1.07" ry="1.35" fill="#5865F2"/>
+              <ellipse cx="14.9" cy="12.25" rx="1.07" ry="1.35" fill="#5865F2"/>
+            </svg>
+          </span>
+          <span class="fanpage-copy">
+            <span class="fanpage-title">Hội ngộ trên Discord</span>
+            <span class="fanpage-subtitle">Cùng đạo hữu luận truyện, chuyện trò như xưa!</span>
+          </span>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+      </nav>
 
       <div class="footer-note">QIDIAN-VP · NHÂN DUYÊN CHƯA TẬN, ẮT CÓ NGÀY TƯƠNG PHÙNG</div>
     </main>
