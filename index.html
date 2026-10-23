@@ -218,6 +218,56 @@
     @media (prefers-reduced-motion: reduce) {
       *, *::before, *::after { scroll-behavior: auto !important; animation: none !important; transition: none !important; }
     }
+    /* Full-width watercolor illustration replaces the old SVG character. */
+    .hero {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 22px;
+    }
+    .visual {
+      order: -1;
+      display: block;
+      min-height: 0;
+      width: 100%;
+      overflow: hidden;
+      border: 1px solid #d8c7aa;
+      border-radius: 7px;
+      background: #efe4cd;
+      box-shadow: 0 9px 24px #473e2b17;
+    }
+    .visual::before, .art-caption { display: none; }
+    .artwork {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      transform: none;
+      filter: none;
+      animation: none;
+    }
+    .copy {
+      max-width: 770px;
+      margin: 0 auto;
+      padding: 8px 0 10px;
+      text-align: center;
+    }
+    .ornament, .social { justify-content: center; }
+    .message { max-width: 710px; margin-inline: auto; }
+    .social { align-items: center; }
+    .social-note { max-width: 360px; margin-top: 0; text-align: left; }
+    .endline { margin-top: 30px; }
+    @media (max-width: 860px) {
+      .hero { grid-template-columns: minmax(0, 1fr); }
+      .visual { min-height: 0; }
+      .artwork { width: 100%; }
+    }
+    @media (max-width: 680px) {
+      .visual { height: auto; min-height: 0; margin: 0; }
+      .artwork { width: 100%; transform: none; }
+      .social-note { max-width: 100%; text-align: center; }
+    }
+    @media (max-width: 380px) {
+      .visual { height: auto; }
+    }
   </style>
 </head>
 <body>
@@ -258,7 +308,7 @@
         </div>
       </div>
       <div class="visual">
-        <img class="artwork" src="./assets/tieu-dao-huu.svg" alt="Tiểu đạo hữu chibi mặc cổ trang, mỉm cười vẫy tay tạm biệt giữa núi non và trúc xanh trên nền giấy cũ." width="740" height="680" loading="eager" decoding="async" />
+        <img class="artwork" src="./assets/qidian-farewell-hero.webp" alt="Tranh chibi cổ trang phong cách thủy mặc: núi non, áng mây, nhân vật đáng yêu và lời tạm biệt Qidian-VP." width="1536" height="1024" loading="eager" decoding="async" />
         <span class="art-caption" aria-hidden="true">Giang hồ tái kiến</span>
       </div>
     </section>
